@@ -28,11 +28,11 @@ export class AppModule { }
 ```html
   <input (change.stop)="onChange($event, extraData)">
 ```
-- `(change.mouseover)` - The mouseover event's propagation will be stopped
+- `(mouseover.stop)` - The mouseover event's propagation will be stopped
 ```html
-  <div (change.stop)="onChange($event, extraData)"></div>
+  <div (mouseover.stop)="onChange($event, extraData)"></div>
 ```
-- `(change.mouseenter)` - The mouseover event's propagation will be stopped
+- `(mouseenter.stop)` - The mouseover event's propagation will be stopped
 ```html
   <div (mouseenter.stop)="onChange($event, extraData)"></div>
 ```
