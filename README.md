@@ -1,27 +1,53 @@
-# NgxStopPropagation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
+### ✋ Stop propagation for everyday events with Angular directives 🎩
 
-## Development server
+#### Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To install this library, run:
 
-## Code scaffolding
+```bash
+$ npm install ngx-event-modifiers --save
+```
+```js
+import { EventModifiersModule } from 'ngx-stop-propagation';
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+@NgModule({
+  imports: [
+    StopPropagationModule
+  ]
+})
+export class AppModule { }
+```
 
-## Build
+### Usage
+- `(click.stop)` - The click event's propagation will be stopped
+```html
+  <button (click.stop)="onClick($event, extraData)">Click Me!!</button>
+```
+- `(click.stop)` - The click event's propagation will be stopped
+```html
+  <button (click.stop)="onClick($event, extraData)">Click Me!!</button>
+```
+- `(change.stop)` - The change event's propagation will be stopped
+```html
+  <input (change.stop)="onChange($event, extraData)">
+```
+- `(change.mouseover)` - The mouseover event's propagation will be stopped
+```html
+  <div (change.stop)="onChange($event, extraData)"></div>
+```
+- `(change.mouseenter)` - The mouseover event's propagation will be stopped
+```html
+  <div (change.mouseenter)="onChange($event, extraData)"></div>
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+You can also pass `[eventOptions]`:
+```html
+  <div (click.stop)="onClick($event, extraData)"
+       [eventOptions]="{preventDefault: true, stopProp: true}">
+     <button>Click Me!!</button>
+  </div>
+```
+## License
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+MIT © [Netanel Basal](mailto:netanel7799@gmail.com)
