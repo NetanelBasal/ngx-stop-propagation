@@ -4,7 +4,7 @@
   "description": "Stop propagation for everyday events with Angular directives",
   "repository": {
     "type": "git",
-    "url": "url"
+    "url": "https://github.com/NetanelBasal/ngx-stop-propagation"
   },
   "keywords": [
     "angular",
@@ -15,10 +15,6 @@
   "author": {
     "name": "Netanel Basal",
     "email": "netanel7799@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NetanelBasal/ngx-stop-propagation"
   },
   "license": "MIT",
   "main": "./bundles/ngx-stop-propagation.umd.js",
