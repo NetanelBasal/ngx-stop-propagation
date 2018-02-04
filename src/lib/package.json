@@ -1,6 +1,6 @@
 {
   "name": "ngx-stop-propagation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stop propagation for everyday events with Angular directives",
   "repository": {
     "type": "git",

@@ -9,7 +9,7 @@ To install this library, run:
 $ npm install ngx-event-modifiers --save
 ```
 ```js
-import { EventModifiersModule } from 'ngx-stop-propagation';
+import { StopPropagationModule } from 'ngx-stop-propagation';
 
 @NgModule({
   imports: [
