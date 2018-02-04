@@ -34,7 +34,7 @@ export class AppModule { }
 ```
 - `(change.mouseenter)` - The mouseover event's propagation will be stopped
 ```html
-  <div (change.mouseenter)="onChange($event, extraData)"></div>
+  <div (mouseenter.stop)="onChange($event, extraData)"></div>
 ```
 
 You can also pass `[eventOptions]`:
