@@ -26,8 +26,8 @@
   "module": "./esm5/ngx-stop-propagation.es5.js",
   "typings": "./ngx-stop-propagation.d.ts",
   "peerDependencies": {
-    "@angular/core": "^5.0.0",
-    "@angular/common": "^5.0.0",
-    "@angular/http": "^5.0.0"
+    "@angular/core": "^4.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/http": "^4.0.0"
   }
 }
