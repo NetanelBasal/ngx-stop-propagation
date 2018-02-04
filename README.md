@@ -6,7 +6,7 @@
 To install this library, run:
 
 ```bash
-$ npm install ngx-event-modifiers --save
+$ npm install ngx-stop-propagation --save
 ```
 ```js
 import { StopPropagationModule } from 'ngx-stop-propagation';
