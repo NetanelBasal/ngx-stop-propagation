@@ -1,4 +1,4 @@
-
+[![Build Status](https://semaphoreci.com/api/v1/netanel7799/ngx-stop-propagation/branches/master/badge.svg)](https://semaphoreci.com/netanel7799/ngx-stop-propagation)
 ### ✋ Stop propagation for everyday events with Angular directives 🎩
 
 #### Installation
