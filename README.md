@@ -24,10 +24,6 @@ export class AppModule { }
 ```html
   <button (click.stop)="onClick($event, extraData)">Click Me!!</button>
 ```
-- `(click.stop)` - The click event's propagation will be stopped
-```html
-  <button (click.stop)="onClick($event, extraData)">Click Me!!</button>
-```
 - `(change.stop)` - The change event's propagation will be stopped
 ```html
   <input (change.stop)="onChange($event, extraData)">
