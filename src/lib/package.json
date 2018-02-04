@@ -1,0 +1,33 @@
+{
+  "name": "ngx-stop-propagation",
+  "version": "1.0.0",
+  "description": "Stop propagation for everyday events with Angular directives",
+  "repository": {
+    "type": "git",
+    "url": "url"
+  },
+  "keywords": [
+    "angular",
+    "Angular events",
+    "Angular directives events",
+    "StopPropagation"
+  ],
+  "author": {
+    "name": "Netanel Basal",
+    "email": "netanel7799@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NetanelBasal/ngx-stop-propagation"
+  },
+  "license": "MIT",
+  "main": "./bundles/ngx-stop-propagation.umd.js",
+  "es2015": "./esm2015/ngx-stop-propagation.js",
+  "module": "./esm5/ngx-stop-propagation.es5.js",
+  "typings": "./ngx-stop-propagation.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/http": "^5.0.0"
+  }
+}
