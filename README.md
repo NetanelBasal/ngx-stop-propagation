@@ -40,7 +40,7 @@ export class AppModule { }
 You can also pass `[eventOptions]`:
 ```html
   <div (click.stop)="onClick($event, extraData)"
-       [eventOptions]="{preventDefault: true, stopProp: true}">
+       [eventOptions]="{preventDefault: true}">
      <button>Click Me!!</button>
   </div>
 ```
